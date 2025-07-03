@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/coffee_prefs.dart';
+import 'package:flutter_application_1/styled_body_text.dart';
 
 
 
@@ -23,7 +24,7 @@ Widget build(BuildContext context){
           Container(
             color: Colors.brown[200],
             padding: EdgeInsets.all(20),
-            child: const Text("How  i like my coffee!!!"), 
+            child: StyledBodyText("How  i like my coffee!!!"), 
           ), 
           Container(
             color: Colors.brown[100],
