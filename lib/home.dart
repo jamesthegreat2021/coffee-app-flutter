@@ -24,7 +24,7 @@ Widget build(BuildContext context){
           Container(
             color: Colors.brown[200],
             padding: EdgeInsets.all(20),
-            child: StyledBodyText("How  i like my coffee!!!"), 
+            child: const StyledBodyText("How  i like my coffee!!!"), 
           ), 
           Container(
             color: Colors.brown[100],

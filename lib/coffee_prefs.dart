@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart'; 
+import 'package:flutter/material.dart';
+import 'package:flutter_application_1/styled_body_text.dart'; 
 
 class CoffeePrefs extends StatefulWidget {
   const CoffeePrefs({super.key});
@@ -54,10 +55,10 @@ Widget build(BuildContext context){
       ), 
       Row(
         children: [
-        Text("sugars: "), 
+        StyledBodyText("sugars: "), 
 
         if (sugars == 0)
-           Text('No sugars'),
+           StyledBodyText('No sugars'),
         for (int i=0;i<sugars; i++) 
           Image.asset('assets/img/sugar_cube.png',
            width: 25,
