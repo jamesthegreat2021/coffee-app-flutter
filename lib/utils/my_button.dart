@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class MyButton extends StatelessWidget {
 
-  MyButton({
+ MyButton({
     super.key, 
     required this.text, 
     required this.onPressed
